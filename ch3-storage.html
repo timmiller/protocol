@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Storage & Chain of Custody — Clinical Operations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <script src="nav.js"></script>
+
+  <div class="page-wrap">
+
+    <div class="page-header">
+      <span class="chapter-label">Chapter 3</span>
+      <h1 class="page-title">Storage &amp; Chain of Custody</h1>
+      <p class="page-intro">
+        Stem cell viability is directly tied to storage conditions. A compromised cold chain means compromised cells — and potentially a lost treatment for a patient. This chapter covers everything from receiving the shipment to long-term storage to what happens if something goes wrong.
+      </p>
+    </div>
+
+    <!-- TEMPERATURE REQUIREMENTS -->
+    <div class="section">
+      <h2 class="section-title">Temperature Requirements</h2>
+
+      <table class="dose-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Storage Method</th>
+            <th>Temp Requirement</th>
+            <th>Shelf Life</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>BioFlow</strong> (stem cells, IV)</td>
+            <td>Cryo-freezer or dry ice</td>
+            <td>−80°C (−176°F)</td>
+            <td>Per lot expiration; typically 12+ months frozen</td>
+          </tr>
+          <tr>
+            <td><strong>BioXsomes</strong> (exosomes, 180B)</td>
+            <td>Cryo-freezer or dry ice</td>
+            <td>−80°C</td>
+            <td>Per lot expiration</td>
+          </tr>
+          <tr>
+            <td><strong>BioFlex</strong> (stem cells, joint)</td>
+            <td>Cryo-freezer or dry ice</td>
+            <td>−80°C</td>
+            <td>Per lot expiration</td>
+          </tr>
+          <tr>
+            <td><strong>BioAer</strong> (lyophilized exosomes)</td>
+            <td>Room temperature — unmixed only</td>
+            <td>Room temp until reconstituted</td>
+            <td>~12 months (check vial expiration)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout info" style="margin-top:20px;">
+        <span class="callout-icon">ℹ️</span>
+        <div>
+          <strong>BioAer is the only product that does not require freezing before reconstitution.</strong> Once reconstituted, use immediately. Do not reconstitute BioAer in advance and store it.
+        </div>
+      </div>
+    </div>
+
+    <!-- DRY ICE -->
+    <div class="section">
+      <h2 class="section-title">Dry Ice Handling</h2>
+
+      <div class="callout warning">
+        <span class="callout-icon">⚠️</span>
+        <div>
+          <strong>Dry ice sublimes rapidly.</strong> It is a gas (CO₂) that dissipates at room temperature. A full container of dry ice will be nearly depleted within 2–3 days. Plan replenishment accordingly.
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>Key Rules</h3>
+        <ul>
+          <li>Replace dry ice every <strong>2–3 days</strong> minimum to maintain cell temperature</li>
+          <li>Handle with insulated gloves — direct skin contact causes frostbite</li>
+          <li>Store dry ice container in a ventilated area; CO₂ buildup in confined spaces is a safety risk</li>
+          <li>If investing in a cryo-freezer (−80°C), dry ice becomes the backup/transport method only</li>
+          <li>Dry ice is your transport method when taking cells to a remote event location</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Cryo-Freezer Option</h3>
+        <p>A −80°C cryo-freezer eliminates the dry ice replenishment cycle and gives you a stable, indefinite storage solution for full inventory. These units are expensive (typically $2,000–$5,000+) but are the right call for any clinic doing regular volume. Dry ice remains valuable for transport to off-site events.</p>
+      </div>
+    </div>
+
+    <!-- RECEIVING SHIPMENT -->
+    <div class="section">
+      <h2 class="section-title">Receiving a Shipment</h2>
+
+      <ol class="step-list">
+        <li><p>Open the box immediately upon arrival. Do not leave product sitting in a warm vehicle or room.</p></li>
+        <li><p>Verify what you ordered is what arrived — check vial count, product names, and lot numbers against your order confirmation.</p></li>
+        <li><p>Check dry ice level in the shipping container. If dry ice is completely depleted and vials appear thawed, <strong>do not use</strong> — see Cold Chain Failure section below.</p></li>
+        <li><p>Visually inspect vials: they should be frozen solid. Any that appear partially thawed should be segregated and not used.</p></li>
+        <li><p>Transfer immediately to your cryo-freezer, or replenish dry ice in the shipping container if using it as temporary storage.</p></li>
+        <li><p>Log receipt: date received, product, lot numbers, quantity, and condition on arrival. Keep this record with your injection sheet documentation.</p></li>
+      </ol>
+    </div>
+
+    <!-- COLD CHAIN FAILURE -->
+    <div class="section">
+      <h2 class="section-title">Cold Chain Failure Protocol</h2>
+
+      <div class="callout danger">
+        <span class="callout-icon">🚫</span>
+        <div>
+          <strong>If the cold chain has been broken — do not inject the product.</strong> Using compromised cells risks patient safety and wastes a high-value treatment. The cells may look fine but may have lost viability.
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>Common Causes of Cold Chain Failure</h3>
+        <ul>
+          <li>Power outage — cryo-freezer stops maintaining temperature</li>
+          <li>Dry ice fully sublimed during transit or storage</li>
+          <li>Cells thawed during transport due to delay or improper packaging</li>
+          <li>Cells thawed in preparation for a patient and the patient appointment was cancelled or IV could not be established</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>What to Do</h3>
+        <ol style="padding-left:20px; margin-top:8px;">
+          <li style="margin-bottom:8px;">Set compromised product aside — label it clearly "DO NOT USE."</li>
+          <li style="margin-bottom:8px;">Contact Platinum Biologics immediately. Report what happened and ask about replacement policy.</li>
+          <li style="margin-bottom:8px;">Document the event: date, time, circumstances, lot numbers affected.</li>
+          <li style="margin-bottom:8px;">Notify the patient if treatment needs to be rescheduled.</li>
+          <li>Discard compromised product per biohazard waste protocols — do not refreeze and attempt to use later.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- VIABILITY -->
+    <div class="section">
+      <h2 class="section-title">Understanding Viability</h2>
+
+      <div class="info-card">
+        <h3>What Is Viability?</h3>
+        <p>Viability refers to the percentage of cells in a vial that are alive and functional at the time of administration. A vial labeled at a certain cell count (e.g., 30 million cells) will have viability noted on the Certificate of Analysis (COA) from Platinum Biologics.</p>
+        <ul style="margin-top:10px;">
+          <li>Cell companies build extra cells into their counts, accounting for the expected small percentage lost during the freeze/thaw cycle — your vial is ready to use as supplied</li>
+          <li>Point-of-care check: if the product is fully liquid with no visible ice crystals and moves freely when you tilt the vial, it is ready to administer</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Certificate of Analysis (COA)</h3>
+        <p>Every lot shipped by Platinum Biologics comes with a COA documenting cell count, viability percentage, sterility testing, and lot number. Request the COA with every order and keep it on file. This is your documentation that you are using a tested, verified product.</p>
+        <p style="margin-top:10px;"><em>Note: The COA will carry the Platinum Biologics lab identification. Product vial labels may carry the Regenerative Revival branding. Both are from the same source.</em></p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

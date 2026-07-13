@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Overview — Clinical Operations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <script src="nav.js"></script>
+
+  <div class="page-wrap">
+
+    <div class="page-header">
+      <span class="chapter-label">Chapter 0</span>
+      <h1 class="page-title">Product Overview</h1>
+      <p class="page-intro">
+        Regenerative Revival uses five core products from Platinum Biologics. Understanding the difference between them — what they contain, how they're delivered, and why you'd combine them — is the foundation for every protocol in this manual.
+      </p>
+    </div>
+
+    <!-- PRODUCT CARDS -->
+    <div class="section">
+      <h2 class="section-title">The Five Products</h2>
+
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="prod-name">BioFlow</div>
+          <div class="prod-type">Stem Cells — IV Use</div>
+          <p>Wharton's jelly-derived mesenchymal stem cells that have been extra-filtered to remove larger particles (collagen, etc.) that are safe for IV administration. This is your primary stem cell product for intravenous delivery.</p>
+          <div class="route-tags">
+            <span class="tag">IV Push</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="prod-name">BioXsomes</div>
+          <div class="prod-type">Exosomes — 180 Billion</div>
+          <p>A high-concentration exosome product (180 billion exosomes). Exosomes act as messengers that signal stem cells to regenerate. They are also potent anti-inflammatories. Higher count than BioAer.</p>
+          <div class="route-tags">
+            <span class="tag">IV</span>
+            <span class="tag">Intra-Articular</span>
+            <span class="tag">Nebulizer</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="prod-name">BioFlex</div>
+          <div class="prod-type">Stem Cells — Joint Use</div>
+          <p>Wharton's jelly stem cells formulated specifically for intra-articular (joint) injection. Not filtered for IV — contains beneficial components like collagen that serve the joint environment but should not enter the vascular system.</p>
+          <div class="route-tags">
+            <span class="tag gold">Joints Only</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="prod-name">BioAer</div>
+          <div class="prod-type">Exosomes — Lyophilized · 50B</div>
+          <p>A lyophilized (freeze-dried, powdered) exosome product with 50 billion exosomes. Must be reconstituted before use. Longer shelf life at room temperature than frozen products. Versatile — can go IV, intra-articular, or nebulized.</p>
+          <div class="route-tags">
+            <span class="tag">IV</span>
+            <span class="tag">Intra-Articular</span>
+            <span class="tag">Nebulizer</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="prod-name">BioFusion</div>
+          <div class="prod-type">Combination Protocol</div>
+          <p>Not a separate product — BioFusion is the standard combination of BioFlex + BioAer drawn into a single syringe for one joint injection. The BioFlex delivers cells while the BioAer adds exosome signaling in the same administration.</p>
+          <div class="route-tags">
+            <span class="tag gold">Joints Only</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- IV PROTOCOLS TIERS -->
+    <div class="section">
+      <h2 class="section-title">IV Protocols — BioFlow Tiers</h2>
+      <p style="font-size:0.92rem; color:var(--stone-500); margin-bottom:20px;">
+        Three levels of IV treatment based on patient need and budget. Each uses BioFlow as the stem cell base, with BioXsomes added for enhanced signaling at higher tiers.
+      </p>
+
+      <table class="dose-table">
+        <thead>
+          <tr>
+            <th>Protocol</th>
+            <th>BioFlow</th>
+            <th>BioXsomes</th>
+            <th>Indicated For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>BioFlow Standard</strong></td>
+            <td>1 vial IV</td>
+            <td>—</td>
+            <td>Systemic support, general wellness, first-time patients</td>
+          </tr>
+          <tr>
+            <td><strong>BioFlow Plus</strong></td>
+            <td>1 vial IV</td>
+            <td>1 vial</td>
+            <td>Chronic inflammation, autoimmune, moderate systemic conditions</td>
+          </tr>
+          <tr>
+            <td><strong>BioFlow Premium</strong></td>
+            <td>1 vial IV</td>
+            <td>2 vials</td>
+            <td>Severe inflammation, complex conditions, patients needing maximum exosome support</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- RECONSTITUTING BIOAER -->
+    <div class="section">
+      <h2 class="section-title">Reconstituting BioAer</h2>
+
+      <div class="callout info">
+        <span class="callout-icon">💡</span>
+        <div>BioAer is lyophilized (powdered), similar to how peptides are prepared. It must be reconstituted before use. The liquid it's mixed into depends on the delivery route.</div>
+      </div>
+
+      <ol class="step-list">
+        <li><p>Remove BioAer vial from storage. It is room-temperature stable until mixed.</p></li>
+        <li><p>Choose your reconstitution fluid: <strong>saline</strong> for nebulization or IV; <strong>BioFlex</strong> (thawed) for joint injection (BioFusion protocol).</p></li>
+        <li><p>Draw 1 cc of fluid into a syringe. Insert needle through the rubber stopper on the BioAer vial.</p></li>
+        <li><p>Introduce the fluid <strong>very slowly</strong> to avoid disrupting the powder.</p></li>
+        <li><p>Gently swirl (do not shake) until fully dissolved — like dissolving chocolate powder in liquid.</p></li>
+        <li><p>For nebulization: reconstitute with 3 cc saline. For IV or joint: 1 cc is sufficient.</p></li>
+        <li><p>Use immediately once reconstituted. Exosomes are stable, but do not leave reconstituted product sitting.</p></li>
+      </ol>
+    </div>
+
+    <!-- DOSING QUICK REFERENCE -->
+    <div class="section">
+      <h2 class="section-title">Dosing Quick Reference</h2>
+
+      <table class="dose-table">
+        <thead>
+          <tr>
+            <th>Treatment Area</th>
+            <th>Product(s)</th>
+            <th>Dose</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IV (standard push)</td>
+            <td>BioFlow</td>
+            <td>1 vial + 3 cc saline</td>
+            <td>Slow push; flush with 10 cc saline after</td>
+          </tr>
+          <tr>
+            <td>Knee (joint)</td>
+            <td>BioFlex ± BioAer</td>
+            <td>2 cc BioFlex (BioFusion if adding exosomes)</td>
+            <td>Intra-articular; lateral or medial approach</td>
+          </tr>
+          <tr>
+            <td>Hip (joint)</td>
+            <td>BioFlex ± BioAer</td>
+            <td>2 cc BioFlex</td>
+            <td>Lateral upper thigh; consider bursa injection</td>
+          </tr>
+          <tr>
+            <td>Lower Back</td>
+            <td>BioFlex + BioXsomes</td>
+            <td>2 cc BioFlex + 1 cc BioXsomes</td>
+            <td>Paraspinal only — never into the spine; bilateral</td>
+          </tr>
+          <tr>
+            <td>Neuropathy (foot)</td>
+            <td>BioFlex ± BioFlow IV</td>
+            <td>2 cc BioFlex per leg</td>
+            <td>1–3 injection sites per foot; consider add-on IV</td>
+          </tr>
+          <tr>
+            <td>Nebulizer (pulmonary)</td>
+            <td>BioAer or BioXsomes</td>
+            <td>Reconstituted in 3 cc saline</td>
+            <td>5–7 minute treatment time</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout warning">
+      <span class="callout-icon">⚠️</span>
+      <div>
+        <strong>Only use Platinum Biologics-sourced products.</strong>
+        Third-party or imported products cannot be verified for cell count, viability, or sterility. All products ordered through the approved supplier channel only.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
